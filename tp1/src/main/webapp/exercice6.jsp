@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	
+
 	<%
 		String nombre = request.getParameter("nombre");
 	
@@ -28,6 +28,6 @@
 			out.print("Vous devez spécifier la table paramètre !");
 		}
 	%>
-	
+
 </body>
 </html>
